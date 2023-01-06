@@ -1,0 +1,87 @@
+body {
+  background-color: #f5f5dd;
+  /* font-family: "Ubuntu", sans-serif; */
+  /* font-family: "East Sea Dokdo", cursive; */
+  font-family: "Roboto Mono", monospace;
+
+  /* make things more compact */
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 40px;
+  margin-left: 40px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.footer {
+  padding-top: 100px;
+  padding-bottom: 50px;
+  text-align: right;
+}
+
+.singleImg {
+  width: 100%;
+}
+
+.carouselImage {
+  width: 600px;
+  height: 600px;
+  object-fit: cover;
+}
+
+.card {
+  background-color: #f5f5dd;
+}
+
+.genCard:hover {
+  background-color: rgb(207, 207, 207);
+}
+
+#mainImg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.card-title {
+  text-align: center;
+  font-weight: bold;
+}
+
+/* add spacing between nav buttons */
+.nav-button {
+  margin: 5px;
+}
+
+/* add spacing between text and button */
+.body-button {
+  margin: 10px;
+}
+
+.crest {
+  width: 25%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* so instead of displaying none, should change dimensions */
+@media screen and (max-width: 600px) {
+  .carouselImage {
+    width: 200px; /* You can set the dimensions to whatever you want */
+    height: 200px;
+    object-fit: cover;
+  }
+}
+
+.logo {
+  /* width: 100%; */
+  height: 150px;
+}
+
+.navbar {
+  font-size: x-large;
+}
