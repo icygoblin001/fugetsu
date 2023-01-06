@@ -16,6 +16,10 @@ h1 {
   text-align: center;
 }
 
+.mainText {
+  font-size: x-large;
+}
+
 .footer {
   padding-top: 100px;
   padding-bottom: 50px;

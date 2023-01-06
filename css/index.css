@@ -22,9 +22,14 @@ h1 {
   text-align: right;
 }
 
+.sendRight {
+  text-align: right;
+  width: 40%;
+  margin-left: 60%;
+}
 .carouselImage {
-  width: 500px;
-  height: 500px;
+  width: 600px;
+  height: 600px;
   object-fit: cover;
 }
 
@@ -41,6 +46,10 @@ h1 {
 /* add spacing between nav buttons */
 .nav-button {
   margin: 5px;
+}
+
+.mainText {
+  font-size: x-large;
 }
 
 /* add spacing between text and button */
