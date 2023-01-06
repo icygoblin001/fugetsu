@@ -29,14 +29,7 @@ h1 {
 }
 
 #jumbo-background {
-  /* background-color: #d1e7dd; */
-  /* background-color: #f7dcb4; */
-
-  /* background-color: #edaec0; */
-
-  /* background-image: url("imgs/index/pink_rice.jpg"); */
-  background-image: url("imgs/index/sakura.jpg");
-
+  background-image: url("../imgs/index/sakura.jpg");
   padding: 2px;
 }
 
