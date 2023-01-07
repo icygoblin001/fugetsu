@@ -1,8 +1,7 @@
 body {
   background-color: #f5f5dd;
-  /* font-family: "Ubuntu", sans-serif; */
-  /* font-family: "East Sea Dokdo", cursive; */
-  font-family: "Roboto Mono", monospace;
+  font-family: "Ubuntu", sans-serif;
+  /* font-family: "Ubuntu Condensed", sans-serif; */
 
   /* make things more compact */
   margin-top: 10px;
@@ -50,6 +49,11 @@ h5 {
   margin-left: auto;
   margin-right: auto;
   width: 100%;
+}
+
+#title {
+  background-image: url("../imgs/index/sakura.jpg");
+  padding: 2px;
 }
 
 .card-title {

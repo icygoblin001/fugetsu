@@ -1,9 +1,8 @@
 body {
   /* background-color: #f8ebdf; */
   background-color: #f5f5dc;
-  /* font-family: "Ubuntu", sans-serif; */
-  /* font-family: "East Sea Dokdo", cursive; */
-  font-family: "Roboto Mono", monospace;
+  font-family: "Ubuntu", sans-serif;
+  /* font-family: "Ubuntu Condensed", sans-serif; */
 
   /* make things more compact */
   margin-top: 10px;
@@ -21,6 +20,18 @@ h5 {
   font-weight: bolder;
 }
 
+.btn-link {
+  color: green;
+}
+
+.btn-link:hover {
+  color: green;
+}
+
+.btn-link:active {
+  color: green;
+}
+
 .footer {
   padding-top: 100px;
   padding-bottom: 50px;
@@ -33,23 +44,10 @@ h5 {
   object-fit: cover;
 }
 
-#jumbo-background {
-  /* background-color: #d1e7dd; */
-  /* background-color: #f7dcb4; */
-
-  /* background-color: #edaec0; */
-
-  /* background-image: url("imgs/index/pink_rice.jpg"); */
-  background-image: url("imgs/index/sakura.jpg");
-
+#title {
+  background-image: url("../imgs/index/sakura.jpg");
   padding: 2px;
 }
-
-#jumbo-text {
-  /* color: #0f5132; */
-  color: black;
-}
-
 #mainImg {
   display: block;
   margin-left: auto;

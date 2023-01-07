@@ -10,7 +10,7 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&family=Ubuntu+Condensed&display=swap" rel="stylesheet">
     
 
 
@@ -54,40 +54,59 @@
   </nav>
 
 
-  <div class = "row">
-    <div class="col">
-        <img id = "mainImg" src= "imgs/index/fugetsu-do-1.png">
-    </div> 
-    <div class = "col">
-      <h2>3 Easy Ways to Buy Fugetsu-Do Mochi. Visit Our Store, Buy Online, or Find at Your Local Japanese Market</h2>
-    </div>
-  </div>
-
-  <br>
+  
 
 
-  <div class = "row">
-    <div class = "col-lg">
-      <h3>1. Visit Our Fugetsu-Do Store</h3>
+  <h2 id = "title">3 Easy Ways to Buy Fugetsu-Do Mochi</h2>
+
+
+
+  <div id="accordion">
+    <div class="card">
+      <div class="card-header" id="headingOne">
+        <h5 class="mb-0">
+          <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            <h3>1. Visit Our Fugetsu-Do Store</h3>
+          </button>
+        </h5>
+      </div>
+  
+      <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+        <div class="card-body">
+          <p>
+            There are also many other types and flavors offered exclusively at our store that range from more traditional pieces to new fruit flavors. We also specialize in seasonal mochi, which includes New Year's mochi for your festivals (advance ordering recommended). Select manju styles in addition to the New Year's mochi will be available during and after Christmas and in the Spring look for special Girl’s and Boy’s Day confections.
+          </p>
+        </div>
+      </div>
     </div>
-    <div class = "col-lg">
-      <p>There are also many other types and flavors offered exclusively at our store that range from more traditional pieces to new fruit flavors. We also specialize in seasonal mochi, which includes New Year's mochi for your festivals (advance ordering recommended). Select manju styles in addition to the New Year's mochi will be available during and after Christmas and in the Spring look for special Girl’s and Boy’s Day confections.</p>
+
+    <div class="card">
+      <div class="card-header" id="headingTwo">
+        <h5 class="mb-0">
+          <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            <h3>2. Online at Japansuper.com</h3>
+          </button>
+        </h5>
+      </div>
+      <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+        <div class="card-body">
+          <p>We have made our manju available for purchases online through <a href = "https://japansuper.com">Japansuper.com</a>. Once on the japansuper.com website, click on "Mochi" in the left sidebar, then on either the picture or the name of the manju to order those sets online from Japansuper.com or click on the green links below to shop on their site. Shipping is only available through <a href = "https://japansuper.com">Japansuper.com</a>.</p>
+        </div>
+      </div>
     </div>
-  </div>
-  <div class = "row">
-    <div class = "col-lg">
-      <h3>2. Online at Japansuper.com</h3>
-    </div>
-    <div class = "col-lg">
-      <p>We have made our manju available for purchases online through <a href = "https://japansuper.com">Japansuper.com</a>. Once on the japansuper.com website, click on "Mochi" in the left sidebar, then on either the picture or the name of the manju to order those sets online from Japansuper.com or click on the green links below to shop on their site. Shipping is only available through <a href = "https://japansuper.com">Japansuper.com</a>.</p>
-    </div>
-  </div>
-  <div class = "row">
-    <div class = "col-lg">
-      <h3>3. Local Japanese Stores</h3>
-    </div>
-    <div class = "col-lg">
-      <p>Fugetsu-Do is also available in limited quantities at these neighborhood Japanese grocery stores (Marukai, Mitsuwa, Nijiya, Tokyo Central, Tokyo Fish Market, and Uwajimaya) in California, Washington, and Oregon. Find store locations on the contact page by clicking the button above. Deliveries are limited to the varieties each store orders from us. Contact the stores to check availability.</p>
+    <div class="card">
+      <div class="card-header" id="headingThree">
+        <h5 class="mb-0">
+          <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            <h3>3. Local Japanese Stores</h3>
+          </button>
+        </h5>
+      </div>
+      <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+        <div class="card-body">
+          <p>Fugetsu-Do is also available in limited quantities at these neighborhood Japanese grocery stores (Marukai, Mitsuwa, Nijiya, Tokyo Central, Tokyo Fish Market, and Uwajimaya) in California, Washington, and Oregon. Find store locations on the contact page by clicking the button above. Deliveries are limited to the varieties each store orders from us. Contact the stores to check availability.</p>
+        </div>
+      </div>
     </div>
   </div>
 
