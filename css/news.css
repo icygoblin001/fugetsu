@@ -1,8 +1,13 @@
 body {
   /* background-color: #f8ebdf; */
   background-color: #f5f5dc;
+  /* font-family: "Ubuntu", sans-serif; */
+  /* font-family: "East Sea Dokdo", cursive; */
+  /* font-family: "Roboto Mono", monospace; */
+
   font-family: "Ubuntu", sans-serif;
   /* font-family: "Ubuntu Condensed", sans-serif; */
+
   /* make things more compact */
   margin-top: 10px;
   margin-bottom: 10px;
@@ -11,16 +16,8 @@ body {
 }
 
 h1,
-h2,
 h5 {
   text-align: center;
-}
-
-h5 {
-  font-weight: bold;
-}
-.mainText {
-  font-size: x-large;
 }
 
 .footer {
@@ -29,11 +26,22 @@ h5 {
   text-align: right;
 }
 
+.sendRight {
+  text-align: right;
+  width: 40%;
+  margin-left: 60%;
+}
 .carouselImage {
-  width: 500px;
-  height: 500px;
+  width: 600px;
+  height: 600px;
   object-fit: cover;
 }
+
+.card {
+  background-color: #f5f5dd;
+  margin: 10px;
+}
+
 #title {
   background-image: url("../imgs/index/sakura.jpg");
   padding: 2px;
@@ -44,21 +52,13 @@ h5 {
   color: black;
 }
 
-#mainImg {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
-}
-
-.card {
-  background-color: #f5f5dd;
-  margin: 10px;
-}
-
 /* add spacing between nav buttons */
 .nav-button {
   margin: 5px;
+}
+
+.mainText {
+  font-size: x-large;
 }
 
 /* add spacing between text and button */
@@ -73,6 +73,13 @@ h5 {
     height: 200px;
     object-fit: cover;
   }
+}
+
+.btnGallery {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 30%;
 }
 
 .logo {
