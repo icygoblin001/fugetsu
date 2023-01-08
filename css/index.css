@@ -1,6 +1,8 @@
 body {
   /* background-color: #f8ebdf; */
-  background-color: #f5f5dc;
+  /* background-color: #f5f5dc; */
+
+  background-color: rgb(250, 245, 234);
   /* font-family: "Ubuntu", sans-serif; */
   /* font-family: "East Sea Dokdo", cursive; */
   /* font-family: "Roboto Mono", monospace; */
@@ -11,12 +13,20 @@ body {
   /* make things more compact */
   margin-top: 10px;
   margin-bottom: 10px;
-  margin-right: 40px;
-  margin-left: 40px;
+  margin-right: 10em;
+  margin-left: 10em;
+}
+
+.pinkBody {
+  color: rgb(193, 150, 171);
 }
 
 h1 {
   text-align: center;
+}
+
+.navbar-nav {
+  margin-left: auto;
 }
 
 .footer {
@@ -25,10 +35,12 @@ h1 {
   text-align: right;
 }
 
-.sendRight {
-  text-align: right;
+.sendLeft {
+  text-align: left;
   width: 40%;
-  margin-left: 60%;
+  margin-right: 60%;
+  font-family: "Baskervville", serif;
+  color: rgb(121, 121, 121);
 }
 .carouselImage {
   width: 600px;
@@ -51,8 +63,15 @@ h1 {
   margin: 5px;
 }
 
+.bodyText {
+  font-family: "Baskervville", serif;
+  color: rgb(121, 121, 121);
+}
+
 .mainText {
   font-size: x-large;
+  font-family: "Baskervville", serif;
+  color: rgb(121, 121, 121);
 }
 
 /* add spacing between text and button */
