@@ -1,3 +1,9 @@
+.btn-link,
+.btn-link:hover,
+.btn-link:active {
+  color: green;
+}
+
 body {
   /* background-color: #f8ebdf; */
   background-color: rgb(250, 245, 234);
@@ -16,32 +22,36 @@ h2 {
   text-align: center;
 }
 
-h5 {
-  font-weight: bolder;
-}
-
-.btn-link,
-.btn-link:hover,
-.btn-link:active {
-  color: green;
-}
-
 .footer {
   padding-top: 100px;
   padding-bottom: 50px;
   text-align: right;
 }
 
+.card {
+  background-color: rgb(250, 245, 234);
+  border-color: rgb(193, 150, 171);
+}
+
+p,
+.card-text {
+  font-family: "Baskervville", serif;
+  color: rgb(121, 121, 121);
+}
+
+.pinkBody {
+  color: rgb(193, 150, 171);
+}
+
+.mainText {
+  font-size: larger;
+  font-family: "Baskervville", serif;
+}
+
 .carouselImage {
   width: 500px;
   height: 500px;
   object-fit: cover;
-}
-p,
-.card-text,
-li {
-  font-family: "Baskervville", serif;
-  color: rgb(121, 121, 121);
 }
 
 #title {
@@ -53,9 +63,16 @@ li {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 200px;
-  height: 200px;
-  object-fit: cover;
+  width: 100%;
+}
+
+.mainText {
+  font-size: x-large;
+  line-height: 2em;
+}
+
+#smallText {
+  font-size: medium;
 }
 
 /* add spacing between nav buttons */
@@ -75,10 +92,6 @@ li {
     height: 200px;
     object-fit: cover;
   }
-}
-
-.card {
-  background-color: #f5f5dd;
 }
 
 .logo {
