@@ -115,3 +115,13 @@ p,
 .navbar {
   font-size: x-large;
 }
+
+.nav-icons {
+  flex-direction: row;
+}
+
+@media only screen and (max-width: 960px) {
+  .nav-icons .nav-item {
+    padding-right: 1em;
+  }
+}
