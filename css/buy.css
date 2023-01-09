@@ -30,11 +30,12 @@ h2 {
 
 .card {
   background-color: rgb(250, 245, 234);
-  border-color: rgb(193, 150, 171);
+  /* border-color: rgb(193, 150, 171); */
 }
 
 p,
-.card-text {
+.card-text,
+.storeList {
   font-family: "Baskervville", serif;
   color: rgb(121, 121, 121);
 }
