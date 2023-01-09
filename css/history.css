@@ -63,6 +63,7 @@ p,
   width: 600px;
   height: 600px;
   object-fit: cover;
+  margin-bottom: 5%;
 }
 
 .card {
