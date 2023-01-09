@@ -38,7 +38,8 @@ h5 {
   object-fit: cover;
 }
 p,
-.card-text {
+.card-text,
+li {
   font-family: "Baskervville", serif;
   color: rgb(121, 121, 121);
 }

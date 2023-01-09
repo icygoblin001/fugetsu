@@ -22,8 +22,29 @@ h5 {
   text-align: right;
 }
 
+.collapseGroup {
+  text-align: center;
+  font-size: larger;
+  color: rgb(121, 121, 121);
+  /* padding-top: 2%; */
+  padding-bottom: 5%;
+}
+
+.collapseGroup:hover {
+  color: rgb(193, 150, 171);
+}
+
+.pinkBody {
+  color: rgb(193, 150, 171);
+}
+
 .singleImg {
   width: 100%;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
 }
 
 .mainText {
@@ -45,7 +66,9 @@ p,
 }
 
 .card {
-  background-color: #f5f5dd;
+  background-color: rgb(250, 245, 234);
+  border-color: rgb(193, 150, 171);
+  margin: 10px;
 }
 
 .genCard:hover {
@@ -89,6 +112,7 @@ p,
 .crest {
   width: 25%;
   display: block;
+  margin-top: 5%;
   margin-left: auto;
   margin-right: auto;
 }

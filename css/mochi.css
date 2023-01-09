@@ -16,8 +16,13 @@ h5 {
   text-align: center;
 }
 
+h2 {
+  margin-bottom: 5%;
+}
+
 h5 {
   font-weight: bold;
+  padding-bottom: 5%;
 }
 .mainText {
   font-size: larger;
@@ -41,6 +46,18 @@ p,
   height: 500px;
   object-fit: cover;
 }
+
+.pinkBody {
+  color: rgb(193, 150, 171);
+}
+
+.supportingImage {
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 #title {
   background-image: url("../imgs/index/sakura.jpg");
   padding: 2px;
@@ -56,6 +73,14 @@ p,
   margin-left: auto;
   margin-right: auto;
   width: 100%;
+}
+
+.sakura {
+  width: 5%;
+  padding: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 
 .card {

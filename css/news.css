@@ -38,7 +38,8 @@ h5 {
 }
 
 .card {
-  background-color: #f5f5dd;
+  background-color: rgb(250, 245, 234);
+  border-color: rgb(193, 150, 171);
   margin: 10px;
 }
 
